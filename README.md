@@ -26,5 +26,5 @@ npm run build
 cd dist
 git add .
 git commit -am '🎉'
-git push
+git push -u origin gh-pages
 ```
