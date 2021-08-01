@@ -15,6 +15,12 @@ npm run start
 
 ## Deploy using gh-pages
 
+First time, prepare `gh-pages` branch in `./dist` folder:
+```sh
+git checkout main
+git worktree add dist gh-pages
+```
+
 ```sh
 npm run build
 cd dist
