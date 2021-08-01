@@ -1,3 +1,10 @@
+
+$image-path: '../../node_modules/calcite-web/dist/img';
+$font-path: '../../node_modules/calcite-web/dist/fonts';
+
+@import "node_modules/calcite-web/dist/sass/calcite-web.scss";
+
+
 html,
 body,
 #viewDiv {
