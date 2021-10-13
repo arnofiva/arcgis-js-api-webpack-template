@@ -27,9 +27,8 @@ module.exports = {
     publicPath: ''
   },
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    // contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 3001,
   },
   externals: [
     /^esri\/.*/,
@@ -53,13 +52,6 @@ module.exports = {
         },
         exclude: /node_modules/
       },
-      // {
-      //   test: /\.css$/,
-      //   use: [
-      //     MiniCssExtractPlugin.loader,
-      //     "css-loader",
-      //   ]
-      // },
       {
         test: /\.s[ac]ss$/i,
         use: [
